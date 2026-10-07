@@ -1,0 +1,34 @@
+# Feeds RSS por categoría. Las URLs de RSS cambian a veces: si una falla,
+# el script avisa por stderr y sigue con las demás. Añade o quita a tu gusto.
+
+IA:
+  - {nombre: arXiv cs.AI, url: "https://arxiv.org/rss/cs.AI"}
+  - {nombre: MIT Technology Review IA, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+  - {nombre: Hacker News, url: "https://hnrss.org/frontpage?points=150"}
+
+Tecnología:
+  - {nombre: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index"}
+  - {nombre: The Verge, url: "https://www.theverge.com/rss/index.xml"}
+  - {nombre: Xataka, url: "https://www.xataka.com/index.xml"}
+
+Política España:
+  - {nombre: RTVE, url: "https://www.rtve.es/api/noticias.rss"}
+  - {nombre: El Mundo España, url: "https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml"}
+  - {nombre: El País España, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"}
+
+Mundo:
+  - {nombre: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+  - {nombre: BBC Mundo, url: "https://feeds.bbci.co.uk/mundo/rss.xml"}
+
+Deportes:
+  - {nombre: BBC Sport, url: "https://feeds.bbci.co.uk/sport/rss.xml"}
+  - {nombre: Marca, url: "https://e00-marca.uecdn.es/rss/portada.xml"}
+
+Ciencia:
+  - {nombre: Nature, url: "https://www.nature.com/nature.rss"}
+  - {nombre: Quanta Magazine, url: "https://www.quantamagazine.org/feed/"}
+  - {nombre: ScienceDaily, url: "https://www.sciencedaily.com/rss/all.xml"}
+
+Arte:
+  - {nombre: Hyperallergic, url: "https://hyperallergic.com/feed/"}
+  - {nombre: ARTnews, url: "https://www.artnews.com/feed/"}
